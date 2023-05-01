@@ -7,6 +7,7 @@ import { Genre } from "./hooks/useGenres";
 import PlatformSelector from "./component/PlatformSelector";
 import { Platform } from "./hooks/useGames";
 import SortSelector from "./component/SortSelector";
+import SearchInput from "./component/SearchInput";
 
 export interface GameQuery{
   genre:Genre | null;
